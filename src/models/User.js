@@ -11,3 +11,5 @@ const userSchema = mongoose.Schmea({
         required: true
     }
 })
+
+mongsoose.model('User', userSchema)
