@@ -1,6 +1,6 @@
-const mongoose = requre('mongoose')
+const mongoose = require('mongoose')
 
-const userSchema = mongoose.Schmea({
+const userSchema = mongoose.Schema({
     email:{
         type: String,
         unique: true,
@@ -12,4 +12,4 @@ const userSchema = mongoose.Schmea({
     }
 })
 
-mongsoose.model('User', userSchema)
+mongoose.model('User', userSchema)
